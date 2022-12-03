@@ -3,6 +3,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #ed5a0e;
+    background: #b26984;
     color: #ffffff;
+
+    .div-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+
+        .div-logo {
+            img {
+                height: 60px;
+                width: 60px;
+            }
+        }
+        .div-links {
+            border: solid 2px red;
+            margin-top: auto;
+            margin-bottom: auto;
+            display: flex;
+            flex-direction: row;
+
+            .div-facebook {
+                padding-right: 10px;
+            }
+            
+            a {
+                border: none;
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        }
+    }
 }
