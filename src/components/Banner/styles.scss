@@ -1,0 +1,50 @@
+.div-banner-master {
+    background-color: rgb(61, 61, 61);
+
+    .div-banner {
+        display: flex;
+        flex-direction: row;
+        padding: 1%;
+        background-color: white;
+
+        .div-img-banner {
+            border-top: solid #a36483 2px;
+            border-left: solid #a36483 2px;
+            border-bottom: solid #a36483 2px;
+            border-bottom-left-radius: 8px;
+            border-top-left-radius: 8px;
+            background-color: #836f79;
+
+            #img1 {
+                width: 200px;
+                height: 200px;
+            }
+            #img2 {
+                width: 200px;
+                height: 200px;
+            }
+            #img3 {
+                width: 900px;
+                margin: 4px 0px 0px 4px;
+                border-bottom-left-radius: 8px;
+                border-top-left-radius: 8px;
+                //height: 200px;
+            }
+        }
+        .div-text {
+            border-top: solid #a36483 2px;
+            border-right: solid #a36483 2px;
+            border-bottom: solid #a36483 2px;
+            border-bottom-right-radius: 8px;
+            border-top-right-radius: 8px;
+            display: flex;
+            width: 100%;
+            background-color: #836f79;
+
+            h1 {
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+}
