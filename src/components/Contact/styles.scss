@@ -1,0 +1,43 @@
+.div-contact-master {
+
+    .div-contact {
+        display: flex;
+        padding: 1%;
+        padding-top: 0.5%;
+        background-color: white;
+
+        .div-space {
+            background-color: red;
+            justify-content: space-between;
+            flex-direction: row;
+            display: flex;
+            width: 100%;
+            padding: 3%;
+            border: solid #a36483 2px;
+            border-radius: 8px;
+
+            .div-whats {
+                background-color: yellow;
+                padding: 1%;
+
+                .div-icon-whats {
+                    display: flex;
+                }
+            }
+
+            .div-social {
+                background-color: green;
+            }
+
+            a {
+                border: none;
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        }
+    }
+}
