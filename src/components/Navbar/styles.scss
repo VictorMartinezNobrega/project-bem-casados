@@ -34,9 +34,10 @@
                 font-weight: 600;
                 transition: 0.5s;
                 cursor: pointer;
+
                 &:hover {
-                  color: red;
-                  transition: 0.5s;
+                    color: red;
+                    transition: 0.5s;
                 }
             }
         }
