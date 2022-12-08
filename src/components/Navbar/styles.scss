@@ -1,14 +1,14 @@
 .div-navbar-master {
-    background-color: #a36483;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     .div-navbar {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+        top: 0;
+        background-color: #a36483;
+        position: fixed;
+        max-height: 80px;
 
         .div-logo {
             img {
@@ -20,12 +20,11 @@
 
         .div-navigation {
             display: flex;
-            border: solid 2px red;
             margin-top: auto;
             margin-bottom: auto;
             left: 100%;
 
-            button {
+            .button {
                 border: none;
                 background-color: var(--background-navbar);
                 text-decoration: none;
@@ -34,10 +33,12 @@
                 font-weight: 600;
                 transition: 0.5s;
                 cursor: pointer;
-
-                &:hover {
-                    color: red;
-                    transition: 0.5s;
+                
+                p {
+                    color: white;
+                    &:hover {
+                        border-bottom: solid 2px white;
+                    }
                 }
             }
         }

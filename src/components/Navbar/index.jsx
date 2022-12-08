@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '@chakra-ui/react';
 import "./styles.scss";
 
 const NavBar = () => {
@@ -10,18 +11,12 @@ const NavBar = () => {
         </div>
         <div className='div-navigation'>
           {/**Local dos botões de navagação */}
-          <button>
-            button1
-          </button>
-          <button>
-            button2
-          </button>
-          <button>
-            button3
-          </button>
-          <button>
-            button4
-          </button>
+          <Button className='button'>
+            <p className='p'>Orçamento</p>
+          </Button>
+          <Button className='button' >
+            <p className='p'>Contato</p>
+          </Button>
         </div>
       </div>
     </div>
