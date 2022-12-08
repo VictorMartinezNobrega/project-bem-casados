@@ -1,3 +1,4 @@
+import { Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 import "./styles.scss";
 
@@ -9,12 +10,12 @@ const index = () => {
                     <img id='img3' src="./img/imgBanner3.jpg" alt="Imagem de bem casados" />
                 </div>
                 <div className='div-text'>
-                    <h1>
+                    <Heading ml={'auto'} mr={'auto'}>
                         História do Bem Casado
-                    </h1>
-                    <p>
+                    </Heading>
+                    <Text>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ab dolor suscipit repellendus qui, in porro unde inventore, necessitatibus voluptatem voluptates dolore, neque ad beatae! Necessitatibus qui facere modi! Dolorem.
-                    </p>
+                    </Text>
                 </div>
             </div>
         </div>
