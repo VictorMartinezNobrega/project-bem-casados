@@ -2,7 +2,7 @@ import { Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 import "./styles.scss";
 
-const index = () => {
+const Bunner = () => {
     return (
         <div className='div-banner-master'>
             <div className='div-banner'>
@@ -10,11 +10,18 @@ const index = () => {
                     <img id='img3' src="./img/imgBanner3.jpg" alt="Imagem de bem casados" />
                 </div>
                 <div className='div-text'>
-                    <Heading ml={'auto'} mr={'auto'}>
+                    <Heading ml={'auto'} mr={'auto'} mb={'5px'} pt={'5%'}>
                         História do Bem Casado
                     </Heading>
-                    <Text>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa ab dolor suscipit repellendus qui, in porro unde inventore, necessitatibus voluptatem voluptates dolore, neque ad beatae! Necessitatibus qui facere modi! Dolorem.
+                    <Text fontSize='2xl' mb={'5px'} >
+                        O bem-casado é um doce popular em Portugal e no Brasil, principalmente nas festas de casamento.
+                         Além do sabor bastante doce, destaca-se pela atenção dada à elaboração das embalagens
+                          com que são produzidos
+                    </Text>
+                    <Text fontSize='2xl'>
+                        É feito para levar sorte e prosperidade aos recém-casados. 
+                        Oferecer aos convidados depois do casamento, basicamente, concretiza essa 
+                        união e garante a mesma sorte e felicidade dos noivos para os convidados.
                     </Text>
                 </div>
             </div>
@@ -22,4 +29,4 @@ const index = () => {
     )
 }
 
-export default index;
+export default Bunner;
