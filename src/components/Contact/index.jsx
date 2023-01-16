@@ -5,11 +5,11 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 import './styles.scss';
 
-const index = () => {
+const Contact = () => {
   return (
     <div className='div-contact-master'>
       <div className='div-contact'>
-        <Box border={2} borderColor={'red'} w={'100%'}>
+        <Box w={'100%'}>
           <Card
             border={'2px'}
             borderColor={'#a36483'}
@@ -45,4 +45,4 @@ const index = () => {
   )
 }
 
-export default index;
+export default Contact;
