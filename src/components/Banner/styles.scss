@@ -15,6 +15,22 @@
             border-bottom-left-radius: 8px;
             border-top-left-radius: 8px;
             background-color: #ffdcfe;
+
+            #img1 {
+                width: 20%;
+                height: 20%;
+            }
+
+            #img2 {
+                width: 200px;
+                height: 200px;
+            }
+
+            #img3 {
+                width: 98.5%;
+                margin: 4px 4px 4px 4px;
+                border-radius: 8px;
+            }
         }
 
         .div-text {
@@ -28,8 +44,6 @@
             background-color: #ffdcfe;
             display: flex;
             flex-direction: column;
-            min-width: 200px;
-            font-size: clamp(1em, 2em, 2em)
 
             h1 {
                 margin-left: auto;

@@ -23,13 +23,12 @@ function Budget() {
             <Box p={'10px'}>
               <Stack align={'center'}>
                 <CardHeader mb={'3%'}>
-                  <Heading fontSize={'3vw'}>Faça já seu orçamento!</Heading>
+                  <Heading>Faça já seu orçamento!</Heading>
                 </CardHeader>
                 <CardBody bg={'#EDF2F7'} p={'none'}>
                   <Input
                     size='lg'
                     placeholder='Quantidade desejada'
-                    fontSize={'1.7vw'}
                     color={'black'}
                     type={'number'}
                     bg={'#EDF2F7'}
@@ -41,31 +40,31 @@ function Budget() {
                     onChange={handleChange}
                   ></Input>
                 </CardBody>
-                <Text fontSize={'3vw'} bg={'#ffdcfe'} mt={'3%'} borderBottom={'2px'} borderColor={'green'}>
-                  R$ {(value * 3.70).toFixed(2)}
+                <Text fontSize={'4xl'} bg={'#ffdcfe'} mt={'3%'} borderBottom={'2px'} borderColor={'green'}>
+                  R$ {(value * 3.40).toFixed(2)}
                 </Text>
-                <Text fontSize={'1.2vw'}>*apenas para a versão básica, para mais detalhes entre em contato!</Text>
+                <Text>*apenas para a versão básica, para mais detalhes entre em contato!</Text>
               </Stack>
             </Box>
             <Box p={'10px'}>
               <Card bg={'#a36483'} color={'white'}>
                 <Stack align={'center'}>
                   <CardBody >
-                    <Heading fontSize={'3vw'}>Acima de</Heading>
-                    <Text fontSize={'2.5vw'}>
+                    <Heading>Acima de</Heading>
+                    <Text fontSize={'3xl'}>
                       300 Bem Casados
                     </Text>
                     <List>
-                      <ListItem fontSize={'2vw'}>
+                      <ListItem fontSize={'2xl'}>
                         <ListIcon as={StarIcon} color='green.500' />
                         Brinde uma placa personalizada
                       </ListItem>
                     </List>
-                    <Text fontSize={'2.5vw'}>
+                    <Text fontSize={'3xl'}>
                       500 Bem Casados
                     </Text>
                     <List>
-                      <ListItem fontSize={'2vw'}>
+                      <ListItem fontSize={'2xl'}>
                         <ListIcon as={StarIcon} color='green.500' />
                         Belo abraço
                       </ListItem>
