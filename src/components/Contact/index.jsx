@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa';
-import { Card, CardHeader, CardBody, Stack, Link, Box, Heading } from '@chakra-ui/react';
+import { Card, CardHeader, CardBody, Stack, Link, Box, Heading, } from '@chakra-ui/react';
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 import './styles.scss';
@@ -17,22 +17,25 @@ const Contact = () => {
             align={'center'}
           >
             <CardHeader>
-              <Heading size='4xl'>Entre em contato!</Heading>
+              <Heading fontSize={'4.5vw'}>Entre em contato!</Heading>
             </CardHeader>
             <CardBody>
-              <Stack display={'flex'} direction='row' alignItems={'center'}>
+              <Stack display={'flex'} direction='row' alignItems={'center'} >
                 <FaWhatsapp size={25}  />
-                <Link className='link' href='http://api.whatsapp.com/send?1=pt_BR&phone=5513981483289' isExternal>
+                <Link className='link' 
+                href='http://api.whatsapp.com/send?1=pt_BR&phone=5513981483289' fontSize={'1.7vw'} isExternal>
                   Whatsapp
                   <ExternalLinkIcon h={3} />
                 </Link>
                 <FaFacebook size={25} />
-                <Link className='link' href='https://www.facebook.com/vanessamartinez.bemcasados' isExternal>
+                <Link className='link' 
+                href='https://www.facebook.com/vanessamartinez.bemcasados' fontSize={'1.7vw'} isExternal>
                   Facebook
                   <ExternalLinkIcon h={3} />
                 </Link>
                 <FaInstagram size={25} />
-                <Link className='link' href='https://www.instagram.com/vanessam_bemcasadosemacarons/' isExternal>
+                <Link className='link' 
+                href='https://www.instagram.com/vanessam_bemcasadosemacarons/' fontSize={'1.7vw'} isExternal>
                   Instagram
                   <ExternalLinkIcon h={3}/>
                 </Link>
