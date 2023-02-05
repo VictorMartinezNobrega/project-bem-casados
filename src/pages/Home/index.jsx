@@ -25,7 +25,7 @@ const index = () => {
       
       <Button onClick={goTop}
       className='button-to-top' variant='outline' colorScheme='pink' 
-      position={'fixed'} top={'80%'} left={'96%'} width={'40px'} height={'40px'}
+      position={'fixed'} top={'80%'} right={'1%'} width={'40px'} height={'40px'}
       >
         <ChevronUpIcon h={5}/>
       </Button>
