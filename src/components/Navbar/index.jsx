@@ -6,14 +6,14 @@ const NavBar = () => {
 
   const goContat = () => {
     window.scrollTo({
-      top: 1020,
+      top: 1200,
       behavior: "smooth",
     });
   };
 
   const goBudget = () => {
     window.scrollTo({
-      top: 820,
+      top: 940,
       behavior: "smooth",
     });
   };

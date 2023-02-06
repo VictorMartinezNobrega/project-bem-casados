@@ -18,12 +18,12 @@ const Bunner = () => {
                     <Heading ml={'auto'} mr={'auto'} mb={'5px'} fontSize='3vw'>
                         História do Bem Casado
                     </Heading>
-                    <Text  mb={'5px'} >
+                    <Text  mb={'5px'} fontSize='2vw' >
                         O bem-casado é um doce popular em Portugal e no Brasil, principalmente nas festas de casamento.
                          Além do sabor bastante doce, destaca-se pela atenção dada à elaboração das embalagens
                           com que são produzidos
                     </Text>
-                    <Text >
+                    <Text fontSize='2vw' >
                         É feito para levar sorte e prosperidade aos recém-casados. 
                         Oferecer aos convidados depois do casamento, basicamente, concretiza essa 
                         união e garante a mesma sorte e felicidade dos noivos para os convidados.

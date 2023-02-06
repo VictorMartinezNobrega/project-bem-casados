@@ -23,19 +23,19 @@ const Contact = () => {
               <Stack display={'flex'} direction='row' alignItems={'center'} >
                 <FaWhatsapp size={25}  />
                 <Link className='link' 
-                href='http://api.whatsapp.com/send?1=pt_BR&phone=5513981483289' fontSize={'1.7vw'} isExternal>
+                href='http://api.whatsapp.com/send?1=pt_BR&phone=5513981483289' fontSize={'2vw'} isExternal>
                   Whatsapp
                   <ExternalLinkIcon h={3} />
                 </Link>
                 <FaFacebook size={25} />
                 <Link className='link' 
-                href='https://www.facebook.com/vanessamartinez.bemcasados' fontSize={'1.7vw'} isExternal>
+                href='https://www.facebook.com/vanessamartinez.bemcasados' fontSize={'2vw'} isExternal>
                   Facebook
                   <ExternalLinkIcon h={3} />
                 </Link>
                 <FaInstagram size={25} />
                 <Link className='link' 
-                href='https://www.instagram.com/vanessam_bemcasadosemacarons/' fontSize={'1.7vw'} isExternal>
+                href='https://www.instagram.com/vanessam_bemcasadosemacarons/' fontSize={'2vw'} isExternal>
                   Instagram
                   <ExternalLinkIcon h={3}/>
                 </Link>
