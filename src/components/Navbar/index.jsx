@@ -22,7 +22,7 @@ const NavBar = () => {
     <div className='div-navbar-master'>
       <div className='div-navbar'>
         <div className='div-logo'>
-          <img src="./img/logo-bem-casados.png" alt="logo-bem-casados" />
+          <img src="./img/logo-bc.png" alt="logo-bem-casados" />
         </div>
         <div className='div-navigation'>
           {/**Local dos botões de navagação */}
