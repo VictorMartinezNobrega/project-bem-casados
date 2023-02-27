@@ -1,6 +1,5 @@
 import { Box, Text } from '@chakra-ui/react';
 import React from 'react';
-import { FaFacebook, FaInstagram } from 'react-icons/fa';
 import "./styles.scss";
 
 const Footer = () => {
