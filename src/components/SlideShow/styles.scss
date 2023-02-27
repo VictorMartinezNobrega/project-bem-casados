@@ -7,7 +7,7 @@ $animationSpeed: 40s;
 // Animation
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-450px * 7))}
+	100% { transform: translateX(calc(-450px * 11))}
 }
 
 // Styling
@@ -48,7 +48,7 @@ $animationSpeed: 40s;
 	.slide-track {
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
-		width: calc(450px * 14);
+		width: calc(450px * 22);
 	}
 	
 	.slide {
