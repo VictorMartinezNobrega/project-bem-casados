@@ -11,7 +11,7 @@ const Bunner = () => {
                      m={'0.4%'}
                      boxSize={'98.5%'}
                      borderRadius={'8px'}
-                     src="./img/imgBanner3.jpg" alt="Imagem de bem casados" 
+                     src="./img/imgBanner1.jpg" alt="Imagem de bem casados" 
                      />
                 </div>
                 <div className='div-text'>
