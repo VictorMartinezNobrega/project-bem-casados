@@ -67,7 +67,7 @@ function Budget() {
                     <List>
                       <ListItem fontSize={'2.1vw'}>
                         <ListIcon as={StarIcon} color='green.500' />
-                        Belo abraço
+                        Caixa personalizada para os noivos
                       </ListItem>
                     </List>
                   </CardBody>
