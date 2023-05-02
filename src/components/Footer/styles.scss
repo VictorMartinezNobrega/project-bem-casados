@@ -7,15 +7,25 @@
     color: #ffffff;
 
     .div-footer {
-        display: flex;
         flex-direction: row;
-        justify-content: space-between;
 
-        .div-logo {
-            img {
-                height: 60px;
-                width: 60px;
+        .div-infos {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .div-logo {
+                img {
+                    height: 60px;
+                    width: 60px;
+                }
             }
-        } 
+        }
+
+        .div-rights {
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }
