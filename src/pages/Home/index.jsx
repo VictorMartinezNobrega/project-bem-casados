@@ -9,6 +9,20 @@ import "./styles.scss";
 
 const Home = () => {
 
+  const images = [
+    "https://via.placeholder.com/800x600.png?text=Imagem+1",
+    "https://via.placeholder.com/800x600.png?text=Imagem+2",
+    "https://via.placeholder.com/800x600.png?text=Imagem+3",
+    "https://via.placeholder.com/800x600.png?text=Imagem+4",
+    "https://via.placeholder.com/800x600.png?text=Imagem+5",
+    "https://via.placeholder.com/800x600.png?text=Imagem+6",
+    "https://via.placeholder.com/800x600.png?text=Imagem+7",
+    "https://via.placeholder.com/800x600.png?text=Imagem+8",
+    "https://via.placeholder.com/800x600.png?text=Imagem+9",
+    "https://via.placeholder.com/800x600.png?text=Imagem+10",
+    "https://via.placeholder.com/800x600.png?text=Imagem+11",
+  ];
+
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -36,7 +50,7 @@ const Home = () => {
 
   return (
     <div className='div-home-master'>
-      <SlideShow />
+      <SlideShow images={images} />
       <Banner />
       <Budget />
       <Contact />
