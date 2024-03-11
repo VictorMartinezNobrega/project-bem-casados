@@ -10,20 +10,29 @@ import "./styles.scss";
 const Home = () => {
 
   const images = [
-    "https://via.placeholder.com/800x600.png?text=Imagem+1",
-    "https://via.placeholder.com/800x600.png?text=Imagem+2",
-    "https://via.placeholder.com/800x600.png?text=Imagem+3",
-    "https://via.placeholder.com/800x600.png?text=Imagem+4",
-    "https://via.placeholder.com/800x600.png?text=Imagem+5",
-    "https://via.placeholder.com/800x600.png?text=Imagem+6",
-    "https://via.placeholder.com/800x600.png?text=Imagem+7",
-    "https://via.placeholder.com/800x600.png?text=Imagem+8",
-    "https://via.placeholder.com/800x600.png?text=Imagem+9",
-    "https://via.placeholder.com/800x600.png?text=Imagem+10",
-    "https://via.placeholder.com/800x600.png?text=Imagem+11",
+    //"./img/carrosel1.jpg",
+    //"./img/carrosel2.jpg",
+    //"./img/carrosel3.jpg",
+    //"./img/carrosel4.jpg",
+    //"./img/carrosel5.jpg",
+    //"./img/carrosel6.jpg",
+    //"./img/carrosel7.jpg",
+    //"./img/carrosel8.jpg",
+    "./img/carrosel9.jpg",
+    //"./img/carrosel10.jpg",
+    "./img/carrosel11.jpg",
+    "./img/carrosel12.jpg",
+    "./img/carrosel13.jpg",
   ];
 
   const [isVisible, setIsVisible] = useState(false);
+
+  const goTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -41,12 +50,7 @@ const Home = () => {
     };
   }, []);
 
-  const goTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    });
-  };
+ 
 
   return (
     <div className='div-home-master'>
